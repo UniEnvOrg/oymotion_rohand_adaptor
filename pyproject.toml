@@ -1,0 +1,23 @@
+[project]
+name = "unienv_rohand"
+version = "0.0.1a1"
+requires-python = ">= 3.10"
+dependencies = [
+    "unienv",
+    "pymodbus>=3.9.2",
+    "pyserial>=3.5",
+]
+
+[project.optional-dependencies]
+
+
+[project.urls]
+Homepage = "https://github.com/UniEnvOrg/UniEnv"
+Documentation = "https://github.com/UniEnvOrg/UniEnv"
+Repository = "https://github.com/UniEnvOrg/UniEnv"
+Issues = "https://github.com/UniEnvOrg/UniEnv/issues"
+Changelog = "https://github.com/UniEnvOrg/UniEnv/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["training*", "tests*"]
