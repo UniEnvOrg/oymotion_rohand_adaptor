@@ -5,7 +5,7 @@ Based on [roh_firmware](https://github.com/oymotion/roh_firmware)
 ## Installation
 
 ```bash
-pip install -e .
+pip install -e unienv-rohand
 ```
 
 ## Usage
@@ -23,12 +23,6 @@ sudo usermod -a -G dialout $USER
 Usually you need to log out and log back in for the group change to take effect. Sometimes it may also be necessary to restart your computer.
 
 Then find the serial port of your OYMotion hand. On Linux, you can use `ls /dev/ttyUSB*` to list all serial devices. The OYMotion hand is usually listed as `/dev/ttyUSB0` or similar.
-
-Then install this package:
-
-```bash
-pip install unienv-rohand
-```
 
 Then you can use the `RohandActor` class to control the OYMotion hand:
 
