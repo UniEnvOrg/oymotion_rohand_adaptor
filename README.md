@@ -27,8 +27,7 @@ Then find the serial port of your OYMotion hand. On Linux, you can use `ls /dev/
 Then install this package:
 
 ```bash
-cd oymotion_rohand
-pip install -e .
+pip install unienv-rohand
 ```
 
 Then you can use the `RohandActor` class to control the OYMotion hand:
