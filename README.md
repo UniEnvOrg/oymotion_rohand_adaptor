@@ -5,7 +5,7 @@ Based on [roh_firmware](https://github.com/oymotion/roh_firmware)
 ## Installation
 
 ```bash
-pip install -e unienv-rohand
+pip install unienv-rohand
 ```
 
 ## Usage
