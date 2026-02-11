@@ -144,6 +144,9 @@ class RohandActor(WorldNode[
             "joint_forces": self.read_finger_forces(),
         }
 
+    def after_reset(self, *, priority: int = 0, mask = None) -> None:
+        self.post_environment_step(0.0, priority=priority)
+
     def get_observation(self):
         return self._current_observation
 
